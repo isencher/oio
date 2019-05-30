@@ -92,7 +92,6 @@ namespace ting.lib
             }
             else { result = null; }
             return result;
-
         }
     }
 
