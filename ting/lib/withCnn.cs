@@ -12,12 +12,24 @@ namespace ting.lib
         private static string file = "set.config";
         private static cnnString cs = new cnnString();
 
+        /// <summary>
+        /// to update a cnnstring string of cnn name into set.config file
+        /// </summary>
+        /// <param name="name">cnn name</param>
+        /// <param name="strcnn">cnnstring string</param>
+        /// <returns>success or fail</returns>
         public static bool UpdateConnectionString(string name, string strcnn)
         {
             // encrypt cnnstring string
             strcnn = sec.Encrypt(strcnn, password);
             return rw.UpdateConnectionString(name, strcnn, true, file);
         }
+
+        /// <summary>
+        /// to get a cnnstring string by cnn name from set.config file
+        /// </summary>
+        /// <param name="name">cnn name</param>
+        /// <returns>return a cnnstring string, return null when set.config is not exist or cnnstring string from file is invalid.</returns>
         public static string GetConnectionString(string name)
         {
 
@@ -26,7 +38,7 @@ namespace ting.lib
             {
                 // descrypt cnnstring string
                 result = sec.Decrypt(result, password);
-                if (ValidateConnectionString(result))
+                if (rw.ValidateConnectionString(result))
                 {
                     return result;
                 }
@@ -34,14 +46,7 @@ namespace ting.lib
             }
             else { return null; }
         }
-        public static bool ValidateConnectionString(string strcnn)
-        {
-            var c = cs.ConvertcnnString(strcnn);
 
-            if (c.DataSource == null && c.InitialCatalog == null && c.IntegratedSecurity == null
-                && c.UserId == null && c.Password == null) { return false; }
-            else { return true; }
-        }
         //public static Form SetCnnUI()
         //{
         //    return new setcnn();

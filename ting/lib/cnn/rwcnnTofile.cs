@@ -80,7 +80,7 @@ namespace ting.lib
         }
 
         /// <summary>
-        /// get connection string from disk file
+        /// get connection string from disk file,return null when file is not exist
         /// </summary>
         public string GetConnectionString(string name, string file)
         {
@@ -107,5 +107,20 @@ namespace ting.lib
             }
             return result;
         }
+
+        /// <summary>
+        /// to validate a cnnstring string 
+        /// </summary>
+        /// <param name="strcnn">cnnstring string</param>
+        /// <returns>valid or invalid</returns>
+        public bool ValidateConnectionString(string strcnn)
+        {
+            var c = new cnnString().ConvertcnnString(strcnn);
+
+            if (c.DataSource == null && c.InitialCatalog == null && c.IntegratedSecurity == null
+                && c.UserId == null && c.Password == null) { return false; }
+            else { return true; }
+        }
+
     }
 }
