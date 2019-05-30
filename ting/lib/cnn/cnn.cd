@@ -14,5 +14,12 @@
       <FileName>cnn\cnnString.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="ting.lib.withCnn">
+    <Position X="1.75" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAgAAAAACAIABBAAAgAAAAA=</HashCode>
+      <FileName>withCnn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="微软雅黑" Size="9" />
 </ClassDiagram>
