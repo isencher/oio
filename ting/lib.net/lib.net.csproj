@@ -58,7 +58,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sec\sec.cs" />
     <Compile Include="withCnn.cs" />
+    <Compile Include="withDgv.cs" />
     <Compile Include="withIdentity.cs" />
+    <Compile Include="withInfo.cs" />
     <Compile Include="withInput.cs" />
     <Compile Include="withRank.cs" />
     <Compile Include="withSecure.cs" />
