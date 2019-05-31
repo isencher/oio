@@ -74,7 +74,7 @@ namespace ting.lib
         }
         /// <summary>
         /// to use it in Control's TextChange event,
-        /// 
+        /// can convert 15 digit id number into 18 digit
         /// </summary>
         /// <param name="sender"></param>
         public static void IdentityNumber15to18(object sender)

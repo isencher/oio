@@ -32,6 +32,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.netcore.app\2.1.0\ref\netcoreapp2.1\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
@@ -56,7 +60,9 @@
     <Compile Include="withCnn.cs" />
     <Compile Include="withIdentity.cs" />
     <Compile Include="withInput.cs" />
+    <Compile Include="withRank.cs" />
     <Compile Include="withSecure.cs" />
+    <Compile Include="withType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="cnn\cnn.cd" />
