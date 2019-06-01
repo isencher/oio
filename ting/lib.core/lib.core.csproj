@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>tng.lib.core</RootNamespace>
+    <AssemblyName>libcore</AssemblyName>
+  </PropertyGroup>
+
+</Project>
