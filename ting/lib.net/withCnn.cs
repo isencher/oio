@@ -1,4 +1,6 @@
-﻿namespace ting.lib.net
+﻿using System.Windows.Forms;
+
+namespace ting.lib.net
 {
     public class withCnn
     {
@@ -43,6 +45,6 @@
             else { return null; }
         }
 
-        public cnnSet cnnSetUI { get => new cnnSet(); }
+        public static Form cnnSetUI { get => new cnnSet(); }
     }
 }
