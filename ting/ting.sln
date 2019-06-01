@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib.net", "lib.net\lib.net.csproj", "{DF3819BA-DB9A-453D-B4BD-71CE2BD0818F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib.core", "lib.core\lib.core.csproj", "{E10EF376-F085-478B-870A-587F9E8DB071}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lib.core", "lib.core\lib.core.csproj", "{E10EF376-F085-478B-870A-587F9E8DB071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "model.net", "model.net\model.net.csproj", "{6257F0F8-061A-4287-AE1E-0AD2C549B68A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E10EF376-F085-478B-870A-587F9E8DB071}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E10EF376-F085-478B-870A-587F9E8DB071}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E10EF376-F085-478B-870A-587F9E8DB071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6257F0F8-061A-4287-AE1E-0AD2C549B68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6257F0F8-061A-4287-AE1E-0AD2C549B68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6257F0F8-061A-4287-AE1E-0AD2C549B68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6257F0F8-061A-4287-AE1E-0AD2C549B68A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
