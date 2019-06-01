@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <ColumnInfos>
+    <ColumnInfo Table="Bank" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="Bank" Name="Name" DataPropertyName="Name" HeaderText="银行名称" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="AccountCategory" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="AccountCategory" Name="Name" DataPropertyName="Name" HeaderText="账户类型" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Unit" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="Unit" Name="Name" DataPropertyName="Name" HeaderText="单位名称" Type="string" Width="190" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Unit" Name="shortName" DataPropertyName="shortName" HeaderText="单位简称" Type="string" Width="100" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Project" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="Project" Name="Name" DataPropertyName="Name" HeaderText="项目名称" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="InOutCategory" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="InOutCategory" Name="CodeId" DataPropertyName="CodeId" HeaderText="编码" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="InOutCategory" Name="Parent" DataPropertyName="Parent" HeaderText="一类" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="InOutCategory" Name="Branch" DataPropertyName="Branch" HeaderText="二类" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="InOutCategory" Name="SubBranch" DataPropertyName="SubBranch" HeaderText="三类" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="InOutCategory" Name="Describe" DataPropertyName="Describe" HeaderText="说明" Type="string" Width="190" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Account" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="Account" Name="CodeId" DataPropertyName="CodeId" HeaderText="科目编码" Type="string" Width="100" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Account" Name="Bank" DataPropertyName="Bank" HeaderText="银行名称" Type="string" Width="130" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Account" Name="Branch" DataPropertyName="Branch" HeaderText="银行网点" Type="string" Width="190" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Account" Name="Category" DataPropertyName="Category" HeaderText="账户类型" Type="string" Width="100" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Account" Name="Number" DataPropertyName="Number" HeaderText="银行账号" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Account" Name="OpeningBalance" DataPropertyName="OpeningBalance" HeaderText="期初余额" Type="decimal" Width="150" Alignment="MiddleRight" Format="N2"/>
+    <ColumnInfo Table="StandingBook" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleRight" Format=""/>
+    <ColumnInfo Table="StandingBook" Name="Date" DataPropertyName="Date" HeaderText="发生日期" Type="DateTime" Width="100" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="StandingBook" Name="AccountName" DataPropertyName="AccountName" HeaderText="账户名称" Type="string" Width="200" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="StandingBook" Name="InOutCategoryName" DataPropertyName="InOutCategoryName" HeaderText="收支类别" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="StandingBook" Name="UnitName" DataPropertyName="UnitName" HeaderText="单位名称" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="StandingBook" Name="ProjcetName" DataPropertyName="ProjcetName" HeaderText="项目名称" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="StandingBook" Name="Describe" DataPropertyName="Describe" HeaderText="摘要" Type="string" Width="190" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="StandingBook" Name="Important" DataPropertyName="Important" HeaderText="Tag" Type="string" Width="100" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="StandingBook" Name="Debit" DataPropertyName="DisplayDebit" HeaderText="借方" Type="decimal" Width="150" Alignment="MiddleRight" Format="N2"/>
+    <ColumnInfo Table="StandingBook" Name="Credit" DataPropertyName="DisplayCredit" HeaderText="贷方" Type="decimal" Width="150" Alignment="MiddleRight" Format="N2"/>
+    <ColumnInfo Table="StandingBook" Name="VoucherNumber" DataPropertyName="VoucherNumber" HeaderText="凭证号" Type="string" Width="100" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Daybook" Name="Date" DataPropertyName="Date" HeaderText="发生日期" Type="DateTime" Width="100" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Daybook" Name="Describe" DataPropertyName="Describe" HeaderText="摘要" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Daybook" Name="Debit" DataPropertyName="Debit" HeaderText="借方" Type="decimal" Width="150" Alignment="MiddleRight" Format="N2"/>
+    <ColumnInfo Table="Daybook" Name="Credit" DataPropertyName="Credit" HeaderText="贷方" Type="decimal" Width="150" Alignment="MiddleRight" Format="N2"/>
+    <ColumnInfo Table="Daybook" Name="Balance" DataPropertyName="Balance" HeaderText="余额" Type="decimal" Width="150" Alignment="MiddleRight" Format="N2"/>
+    <ColumnInfo Table="DaybookTotal" Name="AccountName" DataPropertyName="AccountName" HeaderText="账号" Type="string" Width="190" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="DaybookTotal" Name="OpenBalance" DataPropertyName="OpenBalance" HeaderText="期初余额" Type="string" Width="150" Alignment="MiddleRight" Format="N2"/>
+    <ColumnInfo Table="DaybookTotal" Name="Debit" DataPropertyName="Debit" HeaderText="借方" Type="decimal" Width="150" Alignment="MiddleRight" Format="N2"/>
+    <ColumnInfo Table="DaybookTotal" Name="Credit" DataPropertyName="Credit" HeaderText="贷方" Type="decimal" Width="150" Alignment="MiddleRight" Format="N2"/>
+    <ColumnInfo Table="DaybookTotal" Name="Balance" DataPropertyName="Balance" HeaderText="期末余额" Type="decimal" Width="150" Alignment="MiddleRight" Format="N2"/>
+  </ColumnInfos>
+</Data>

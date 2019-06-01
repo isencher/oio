@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <ColumnInfos>
+    <ColumnInfo Table="SetofBook" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="SetofBook" Name="Name" DataPropertyName="Name" HeaderText="账套名称" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="SetofBook" Name="DbName" DataPropertyName="DbName" HeaderText="数据库名" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Module" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="Module" Name="Name" DataPropertyName="Name" HeaderText="模块名称" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Module" Name="AssemblyName" DataPropertyName="AssemblyName" HeaderText="程序集名" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="LevelOne" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="LevelOne" Name="ModuleName" DataPropertyName="ModuleName" HeaderText="软件模块" Type="int" Width="150" Alignment="MiddleLeft" Format="N0"/>
+    <ColumnInfo Table="LevelOne" Name="Name" DataPropertyName="Name" HeaderText="一级菜单" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="LevelTwo" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="LevelTwo" Name="LevelOneName" DataPropertyName="LevelOneName" HeaderText="一级菜单" Type="int" Width="150" Alignment="MiddleLeft" Format="N0"/>
+    <ColumnInfo Table="LevelTwo" Name="Name" DataPropertyName="Name" HeaderText="二级菜单" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="LevelTwo" Name="ClassName" DataPropertyName="ClassName" HeaderText="类名称" Type="string" Width="250" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Operation" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="Operation" Name="Name" DataPropertyName="Name" HeaderText="操作名称" Type="string" Width="100" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Operation" Name="MethodName" DataPropertyName="MethodName" HeaderText="操作方法" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Role" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="Role" Name="Name" DataPropertyName="Name" HeaderText="角色名称" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="User" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="User" Name="Name" DataPropertyName="Name" HeaderText="用户姓名" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="User" Name="Account" DataPropertyName="Account" HeaderText="登录账号" Type="string" Width="150" Alignment="MiddleCenter" Format=""/>
+    <ColumnInfo Table="User" Name="Roles" DataPropertyName="DisplayRoles" HeaderText="用户角色" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="User" Name="IsStop" DataPropertyName="IsStop" HeaderText="是否停用" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Right" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="Right" Name="Name" DataPropertyName="Name" HeaderText="权限名称" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Right" Name="RoleName" DataPropertyName="RoleName" HeaderText="角色名称" Type="string" Width="150" Alignment="MiddleCenter" Format=""/>
+    <ColumnInfo Table="Right" Name="SetofBooksName" DataPropertyName="SetofBooksName" HeaderText="账套名称" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Right" Name="ModuleName" DataPropertyName="ModuleName" HeaderText="模块名称" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Right" Name="LevelOneName" DataPropertyName="LevelOneName" HeaderText="一级菜单" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Right" Name="LevelTwoName" DataPropertyName="LevelTwoName" HeaderText="二级菜单" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Right" Name="Enabled" DataPropertyName="Enabled" HeaderText="开启状态" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Accredit" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="Accredit" Name="Name" DataPropertyName="Name" HeaderText="授权名称" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Accredit" Name="RightName" DataPropertyName="RightName" HeaderText="权限名称" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Accredit" Name="OperationName" DataPropertyName="OperationName" HeaderText="操作名称" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Accredit" Name="Enabled" DataPropertyName="Enabled" HeaderText="是否启用" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Log" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="Log" Name="Date" DataPropertyName="Date" HeaderText="日期" Type="DateTime" Width="120" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Log" Name="UserName" DataPropertyName="UserName" HeaderText="用户名" Type="string" Width="120" Alignment="MiddleCenter" Format=""/>
+    <ColumnInfo Table="Log" Name="Action" DataPropertyName="Action" HeaderText="操作" Type="string" Width="90" Alignment="MiddleCenter" Format=""/>
+    <ColumnInfo Table="Log" Name="Entity" DataPropertyName="Entity" HeaderText="数据表" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Log" Name="Content" DataPropertyName="Content" HeaderText="操作内容" Type="string" Width="500" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Log" Name="Original" DataPropertyName="Original" HeaderText="原始内容" Type="string" Width="500" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Department" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="Department" Name="Name" DataPropertyName="Name" HeaderText="部门名称" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Category" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="Category" Name="Name" DataPropertyName="Name" HeaderText="类名" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Room" Name="Id" DataPropertyName="Id" HeaderText="编号" Type="int" Width="50" Alignment="MiddleCenter" Format="N0"/>
+    <ColumnInfo Table="Room" Name="CommunityName" DataPropertyName="CommunityName" HeaderText="组团" Type="string" Width="150" Alignment="MiddleLeft" Format=""/>
+    <ColumnInfo Table="Room" Name="BuildingNumber" DataPropertyName="BuildingNumber" HeaderText="栋号" Type="int" Width="50" Alignment="MiddleRight" Format="N0"/>
+    <ColumnInfo Table="Room" Name="UnitNumber" DataPropertyName="UnitNumber" HeaderText="单元" Type="int" Width="50" Alignment="MiddleRight" Format="N0"/>
+    <ColumnInfo Table="Room" Name="FloorNumber" DataPropertyName="FloorNumber" HeaderText="楼层" Type="int" Width="50" Alignment="MiddleRight" Format="N0"/>
+    <ColumnInfo Table="Room" Name="ApartmentNumber" DataPropertyName="ApartmentNumber" HeaderText="室号" Type="int" Width="50" Alignment="MiddleRight" Format="N0"/>
+    <ColumnInfo Table="Room" Name="CategoryName" DataPropertyName="Category.Name" HeaderText="类型" Type="int" Width="50" Alignment="MiddleLeft" Format="N0"/>
+    <ColumnInfo Table="Room" Name="Price" DataPropertyName="Price" HeaderText="单价" Type="int" Width="60" Alignment="MiddleRight" Format="N2"/>
+    <ColumnInfo Table="Room" Name="Area" DataPropertyName="Area" HeaderText="面积" Type="int" Width="70" Alignment="MiddleRight" Format="N2"/>
+    <ColumnInfo Table="Room" Name="Amount" DataPropertyName="Amount" HeaderText="总价" Type="int" Width="90" Alignment="MiddleRight" Format="C2"/>
+
+  </ColumnInfos>
+</Data>
