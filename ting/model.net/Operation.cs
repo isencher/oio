@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ting.model
+namespace ting.model.net
 {
     [Table("operation", Schema = "syst")]
     [Serializable]
